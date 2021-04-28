@@ -5,4 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-user = User.create( username: "sarvo1", password: "password1" )
+# user = User.create( username: "sarvo1", password: "password1" )
+
+# category = Category.create(name: "chicken")
+
+recipe = Recipe.create(user_id: 2, title: "Chicken curry2", view_count: 5, description: "This is chicken curry with tomato")
