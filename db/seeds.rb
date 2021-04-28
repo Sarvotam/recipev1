@@ -9,4 +9,4 @@
 
 # category = Category.create(name: "chicken")
 
-recipe = Recipe.create(user_id: 2, title: "Chicken curry2", view_count: 5, description: "This is chicken curry with tomato")
+recipe = Recipe.create(user_id: 1, title: "Chicken curry2", view_count: 5, description: "This is chicken curry with tomato")

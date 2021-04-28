@@ -16,6 +16,6 @@ class Api::V1::RecipesController < ApplicationController
 
   private
   def recipe_params
-    params.permit(:view_count, :description, :title, :category_ids[], :user_id)
+    params.permit(:view_count, :description, :title, :user_id, category_ids:[])
   end
 end
